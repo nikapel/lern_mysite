@@ -1,0 +1,23 @@
+.header {
+    background-image: url("sea.jpg");
+}
+
+.bloggood-ru-div {
+    display: none;
+}
+
+a.bloggood-ru-ssilka:hover + div {
+    display: block;
+}
+
+.block0 { /* ФИО */
+    padding: 2%;
+    padding-right: 5%;
+    float: left;
+    top: 90%;
+    font-size: 200%
+
+}
+
+
+

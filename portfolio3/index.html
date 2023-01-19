@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Визитка</title>
+    <style>
+
+        .bloggood-ru-div /* всплывающая картинкка нач. стиль */
+        {
+            display: none;
+        }
+
+        a.bloggood-ru-ssilka:hover + div { /*фото всплывающее позиционирование политеха*/
+            display: block;
+            position: relative;
+            left: 40%;
+        }
+
+        body { /* фон, например море */
+            background: url(sea.jpg);
+        }
+
+        #left { /*left колонка в блоках */
+            position: absolute;
+            left: 3%;
+            top: 5%;
+            width: 35%;
+        }
+
+        #right { /* колонка в блоках */
+            position: absolute;
+            left: 33%;
+            top: 5%;
+            width: 75%;
+        }
+
+
+        .block01 { /* фейс */
+            width: 30%;
+            float: right;
+            position: relative;
+
+            left: 70px;
+        }
+
+        .block1 { /* дата рожд. и ниже */
+            width: 500px; /* ширина блока */
+            padding: 10px; /* расстояние слева */
+            padding-right: 100px; /* справа */
+            font-size: 100%;
+            position: relative;
+            left: 20px;
+
+
+        }
+
+        .block2 { /* образование */
+            position: relative;
+            left: -0%;
+            top: 25px;
+
+        }
+
+
+        .block4 { /* опыт работы */
+            position: relative;
+            top: 100px;
+
+        }
+
+        .block5 { /* навыки */
+            position: relative;
+            top: 250px;
+            left: 10px;
+        }
+
+        .block6 { /* дополнительная информация */
+            position: relative;
+            top: 300px;
+            left: 10px;
+        }
+
+        .block7 { /* личные качества */
+            position: relative;
+            top: 370px;
+            left: 10px;
+        }
+
+
+    </style>
+</head>
+
+<body>
+
+<div class="block01">
+    <img src="face.jpg" alt="Альтернативный текст" width="150">
+</div>
+<div class="block0">
+    <strong><i>Капелист Николай Иванович</i></strong>
+</div>
+
+
+<div class="block1">
+    <p><i>
+        Дата рождения: 21.05.1960<br>
+        Прожив г. Одесса, Украина<br>
+        Временно г. Кишинев, Молдова<br>
+        Гражданство Украина<br>
+        Тлф.,тлгр. +380662911123 ,<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;+37360883598 <br>
+        Email: 7882587@gmail.com,<br>
+
+</div>
+
+<div class="block4">
+    <div id="left">
+        <p>
+        <li><b>Опыт работы</b>
+        </p></li>
+    </div>
+
+    <div id="right">
+        <em><p>1983-1991г работа по монтажу, настройке и сдаче в эксплуатацию систем противовоздушной обороны
+            страны<br>
+            &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;в должности
+            бригадира старшим инженером. Опыт кросс-локационной работы. <br>
+            1991-2001г работа в частном предприятии г. Николаев ведущим инженером телекомпании Норма». <br>
+            &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;Полный цикл – проектирование,
+            закупка, организация монтажа и эксплуатации кабельного TV.
+            <br>
+            2001-2022г частный предприниматель по системам спутникового телевидения, видеонаблюдения,<br>
+            &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; сигнализаций, системам доступа (г.Одесса).<br>
+            &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; сайт <a href="http://tele.od.ua">tele.od.ua</a></i>
+        </p>
+    </div>
+</div>
+
+<div class="block5">
+    <div id="left">
+        <p>
+        <li><b>Навыки</b>
+        </p></li>
+    </div>
+    <div id="right">
+        <p><i> &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;навыки общения с заказчиками,
+            клиентами,составления смет,проектирования,<br>
+            &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;работы с аппаратной и программной
+            частями</i>
+        </p>
+    </div>
+</div>
+
+
+<div class="block2">
+    <div id="left">
+        <p>
+        <li><b>Образование</b>
+        </p></li>
+    </div>
+    <div id="right">
+        <i> 1978-1983 Одесский политехнический институт, cпециальность инженер-радиотехник <a href="#"
+                                                                                              class="bloggood-ru-ssilka">Смотреть</a>
+            <div class="bloggood-ru-div"><img src="politeh.png" alt="Альтернативный текст" width="190"></div>
+            <br>
+            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;Киев Академия Шаг 2022
+            Python-разработчик <br>
+
+            &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;Курс Stepik–прогаммирование на Python <a
+                    href=" https://stepik.org/cert/1778671">https://stepik.org/cert/1778671</a> <br>
+            &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;Курс Stepik–прогаммирование на Python <a
+                    href=" https://stepik.org/cert/1871186">https://stepik.org/cert/1871186</a> <br>
+        </i></p>
+
+
+    </div>
+
+    <div class="block6">
+        <div id="left">
+            <p>
+            <li><b>Дополнительная информация</b>
+            </p></li>
+        </div>
+        <div id="right">
+            <p><i>&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;Английский – технический,
+                водительские права кат. А, В, С.Хобби – рисование, автоэлектроника, бег.</i>
+            </p>
+        </div>
+    </div>
+
+    <div class="block7">
+        <div id="left">
+            <p>
+            <li><b>Личные качества</b>
+            </p></li>
+
+        </div>
+        <div id="right">
+            <p><i>
+                &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;Трудолюбие, исполнительность,
+                творческий подход, ответственность.</i>
+            </p>
+        </div>
+    </div>
+
+
+</body>
+</html>
